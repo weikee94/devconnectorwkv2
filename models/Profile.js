@@ -2,6 +2,7 @@ const mongoose = require("mongoose");
 
 const ProfileSchema = new mongoose.Schema({
   user: {
+    // used to link to other schema
     type: mongoose.Schema.Types.ObjectId,
     ref: "user"
   },
