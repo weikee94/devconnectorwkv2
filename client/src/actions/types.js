@@ -16,3 +16,16 @@ export const LOGIN_FAILED = "LOGIN_FAILED";
 
 // Logout
 export const LOGOUT = "LOGOUT";
+
+// Get Profile
+export const GET_PROFILE = "GET_PROFILE";
+export const PROFILE_ERROR = "PROFILE_ERROR";
+
+// Clear Profile
+export const CLEAR_PROFILE = "CLEAR_PROFILE";
+
+// Update Profile
+export const UPDATE_PROFILE = "UPDATE_PROFILE";
+
+// Delete Account
+export const ACCOUNT_DELETED = "ACCOUNT_DELETED";
