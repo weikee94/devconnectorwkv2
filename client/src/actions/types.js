@@ -21,6 +21,12 @@ export const LOGOUT = "LOGOUT";
 export const GET_PROFILE = "GET_PROFILE";
 export const PROFILE_ERROR = "PROFILE_ERROR";
 
+// Get Profiles
+export const GET_PROFILES = "GET_PROFILES";
+
+// GET Github Repos
+export const GET_REPOS = "GET_REPOS";
+
 // Clear Profile
 export const CLEAR_PROFILE = "CLEAR_PROFILE";
 
