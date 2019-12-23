@@ -7,3 +7,13 @@
 
 - npx create-react-app client
 - npm i axios react-router-dom redux react-redux redux-thunk redux-devtools-extension moment react-moment
+
+### Install heroku cli
+
+- heroku login
+- use postscript to build on the heroku (in server package.json)
+- heroku create (create heroku app)
+
+### Create production build to heroku
+
+- cd client && npm run build
