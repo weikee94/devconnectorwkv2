@@ -13,6 +13,8 @@
 - heroku login
 - use postscript to build on the heroku (in server package.json)
 - heroku create (create heroku app)
+- heroku git:remote -a dry-bayou-76370 (add remote repo)
+- git push heroku master
 
 ### Create production build to heroku
 

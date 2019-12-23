@@ -5,7 +5,6 @@ const path = require("path");
 
 // Connect Database
 connectDB();
-// app.get("/", (req, res) => res.send("API RUNNING"));
 
 // Init Middleware
 app.use(express.json({ extended: false }));
