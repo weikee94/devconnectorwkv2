@@ -15,7 +15,12 @@
 - heroku create (create heroku app)
 - heroku git:remote -a dry-bayou-76370 (add remote repo)
 - git push heroku master
+- on production use config/default.json on .ignore
 
 ### Create production build to heroku
 
 - cd client && npm run build
+
+### Live
+
+- http://dry-bayou-76370.herokuapp.com/
